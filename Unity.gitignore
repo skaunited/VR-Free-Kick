@@ -1,15 +1,24 @@
-# =============== #
-# Unity generated #
-# =============== #
+#-------------------
+#-- Unity generated
+#-------------------
 [Tt]emp/
 [Oo]bj/
 [Bb]uild
-/[Ll]ibrary/
+[Ll]ibrary/
 sysinfo.txt
 *.stackdump
-# ============================================= #
-# Visual Studio / MonoDevelop / Rider generated #
-# ============================================= #
+
+# Lightmaps
+*.exr
+*.exr.meta
+LightmapSnapshot.asset
+LightmapSnapshot.asset.meta
+LightingData.asset
+LightingData.asset.meta
+
+#-----------------------------------------
+#-- Visual Studio / MonoDevelop generated
+#-----------------------------------------
 [Ee]xported[Oo]bj/
 .vs/
 /*.userprefs
@@ -20,14 +29,47 @@ sysinfo.txt
 /*.user
 /*.unityproj
 /*.booproj
-/.idea*/
-# ============ #
-# OS generated #
-# ============ #
+ 
+#----------------
+#-- OS generated
+#----------------
 .DS_Store*
 ._*
 .Spotlight-V100
 .Trashes
+Icon?
 ehthumbs.db
 [Tt]humbs.db
-[Dd]esktop.ini
+
+#-----------------------------------------
+#-- Games lighting data folders
+#-----------------------------------------
+Assets/Games/Airplane/Airplane.meta
+Assets/Games/Carnival/Carnival.meta
+Assets/Games/CarRacer/CarRacer.meta
+Assets/Games/CrossTheRoad/CrossTheRoad.meta
+Assets/Games/DesertHovercraft/DesertHovercraft.meta
+Assets/Games/FlyingCar/FlyingCar.meta
+Assets/Games/HandMemory/HandMemory.meta
+Assets/Games/LineRoller/LineRoller.meta
+Assets/Games/Mind4/Mind4.meta
+Assets/Games/MineCart/MineCart.meta
+Assets/Games/PlaneGame/PlaneGame.meta
+Assets/Games/Sample/Sample.meta
+Assets/Games/SkiLiner/SkiLiner.meta
+Assets/Games/TowerBuilder/TowerBuilder.meta
+Assets/Games/VikingPaddle/VikingPaddle.meta
+Assets/Games/WitcherDefense/WitcherDefense.meta
+
+#-----------------------------------------
+#-- Final IK
+#-----------------------------------------
+# Demos stuff
+Assets/Plugins/Editor/RootMotion/FinalIK/_DEMO*
+Assets/Plugins/RootMotion/FinalIK/_DEMO*
+Assets/Plugins/RootMotion/Shared Demo Assets*
+
+#-----------------------------------------
+#-- Binaries
+#-----------------------------------------
+Binaries/
